@@ -6,3 +6,8 @@ The script will then post the content to either SquareSpace or KVCore depending 
 # Private
 The private.json file contains confidential information about logging into the CRM platform (KvCore).
 Thus, it is not included in the git repo, and is instead on the local machine.
+
+# Technical
+Languages used: Python, JavaScript
+When the script is run, the Python script will parse the .eml file and send the results to a file.
+Then, the Python script will call a js script to read from said file and update the CRM (KVCore) or website(SquareSpace).
